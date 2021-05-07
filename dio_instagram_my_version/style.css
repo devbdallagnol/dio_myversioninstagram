@@ -40,10 +40,10 @@ body {
 .instagram-continue {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
-    width: 30%;
-    min-height: 40rem;
+    width: 60%;
+    min-height: 80%;
 }
 
 .group {
@@ -51,11 +51,12 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: #ffffff;
-    width: 100%;
+    background-color: rgba(230, 230, 230, 0.8);
+    width: 85%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
     border-radius: 1.2rem;              /* arredondar os cantos */
+    margin-top: 20px;
 }
 
 .group:nth-child(1) {
@@ -92,7 +93,7 @@ body {
 }
 
 .not-account {
-    color: rgb(160, 160, 160);
+    color: rgb(240, 237, 231);
 }
 
 .link-blue {
@@ -105,7 +106,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 1.3rem 0;
+    padding: 0.9rem 0;
 }
 
 .get-app {
@@ -119,7 +120,8 @@ body {
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
+    margin: 4px;
 }
 
 .app-download {
